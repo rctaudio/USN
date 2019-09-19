@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -90,7 +92,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -99,6 +104,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -141,6 +147,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -219,6 +227,44 @@
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="TSX-3225">
+<description>MHz Range Crystal Unit</description>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.15" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.15" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.15" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.15" layer="51"/>
+<wire x1="-1.9" y1="-1.475" x2="-1.9" y2="1.475" width="0.1" layer="39"/>
+<wire x1="-1.9" y1="1.475" x2="1.9" y2="1.475" width="0.1" layer="39"/>
+<wire x1="1.9" y1="1.475" x2="1.9" y2="-1.475" width="0.1" layer="39"/>
+<wire x1="1.9" y1="-1.475" x2="-1.9" y2="-1.475" width="0.1" layer="39"/>
+<wire x1="-2.2" y1="-1.775" x2="-2.2" y2="1.775" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="1.775" x2="2.2" y2="1.775" width="0.15" layer="21"/>
+<wire x1="2.2" y1="1.775" x2="2.2" y2="-1.775" width="0.15" layer="21"/>
+<wire x1="2.2" y1="-1.775" x2="-2.2" y2="-1.775" width="0.15" layer="21"/>
+<text x="-1.95" y="2.125" size="1" layer="25">&gt;NAME</text>
+<circle x="-1.1" y="-2.375" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.103" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="4" x="-1.097" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+</package>
+<package name="0603-RES">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA328PB-AU">
@@ -270,6 +316,38 @@
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="TSX-3225">
+<description>MHz Range Crystal Unit</description>
+<wire x1="2.54" y1="-5.588" x2="2.54" y2="-9.652" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-5.588" x2="7.62" y2="-9.652" width="0.508" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="6.35" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="6.35" y1="-10.16" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
+<text x="2.794" y="0.508" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.794" y="-2.286" size="2.54" layer="95" align="top-left">TSX-3225 </text>
+<pin name="1" x="-2.54" y="-7.62" visible="pad" length="middle"/>
+<pin name="3" x="12.7" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="1_GND" x="0" y="-12.7" visible="pad" length="middle"/>
+<pin name="2_GND" x="10.16" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<circle x="5.08" y="-12.7" radius="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA328PB-AU" prefix="U">
@@ -317,7 +395,7 @@
 <attribute name="AVAILABILITY" value="Unavailable"/>
 <attribute name="DESCRIPTION" value=" AVR microcontroller; EEPROM: 1024B; SRAM: 2kB; Flash: 32kB; TQFP32 "/>
 <attribute name="MF" value="Microchip"/>
-<attribute name="MP" value="ATMEGA328PB-AU"/>
+<attribute name="MPN" value="ATMEGA328PB-AU"/>
 <attribute name="PACKAGE" value="TQFP-32 Microchip"/>
 <attribute name="PRICE" value="None"/>
 </technology>
@@ -338,7 +416,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MP" value="CL10B104KB8NNNC" constant="no"/>
+<attribute name="MPN" value="CL10B104KB8NNNC" constant="no"/>
 <attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="100nF" constant="no"/>
 </technology>
@@ -359,9 +437,84 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MP" value="06035C220JAT2A" constant="no"/>
+<attribute name="MPN" value="06035C220JAT2A" constant="no"/>
 <attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="22pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSX-3225" prefix="Y">
+<description>EPSON_TSX-3225_16.0000MF09Z-AC3</description>
+<gates>
+<gate name="G$0" symbol="TSX-3225" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EPSON_TSX-3225_16.0000MF09Z-AC3_0_0" package="TSX-3225">
+<connects>
+<connect gate="G$0" pin="1" pad="1"/>
+<connect gate="G$0" pin="1_GND" pad="2"/>
+<connect gate="G$0" pin="2_GND" pad="4"/>
+<connect gate="G$0" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CRYS 16MHz ±10ppm Crystal 9pF 60 Ohms 4-SMD, No Lead"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SER3628CT-ND"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="Epson"/>
+<attribute name="MOUSER_PART_NUMBER" value="732-TX325-16F09Z-AC3"/>
+<attribute name="MPN" value="TSX-3225 16.0000MF09Z-AC3"/>
+<attribute name="PACKAGE" value="XTAL_SMD_3MM2_2MM5"/>
+<attribute name="PREFIX" value="Y"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+75°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-20°C"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="9PF-50V(0603)" prefix="C" uservalue="yes">
+<description>CAP CER CAP CER 9PF 50V NP0 0603</description>
+<gates>
+<gate name="G$1" symbol="0603_CAP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CBR06C909B5GAC" constant="no"/>
+<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
+<attribute name="VALUE" value="9pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES_0603_10K_1%_.1W" prefix="R">
+<description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="PROD_ID" value="RES-09383"/>
+<attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
 </device>
