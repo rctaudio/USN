@@ -394,63 +394,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="ATMEGA328PB-AU">
-<packages>
-<package name="QFP80P900X900X120-32N">
-<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.1524" layer="51"/>
-<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.1524" layer="51"/>
-<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.1524" layer="51"/>
-<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="51"/>
-<text x="-5.59011875" y="5.64171875" size="0.815940625" layer="25">&gt;NAME</text>
-<text x="-5.552209375" y="-6.544909375" size="0.8171625" layer="27">&gt;VALUE</text>
-<wire x1="-5.25" y1="-5.25" x2="5.25" y2="-5.25" width="0.05" layer="39"/>
-<wire x1="5.25" y1="-5.25" x2="5.25" y2="5.25" width="0.05" layer="39"/>
-<wire x1="5.25" y1="5.25" x2="-5.25" y2="5.25" width="0.05" layer="39"/>
-<wire x1="-5.25" y1="5.25" x2="-5.25" y2="-5.25" width="0.05" layer="39"/>
-<circle x="-5.389" y="2.8" radius="0.254" width="0" layer="21"/>
-<wire x1="-3.55" y1="3.25" x2="-3.55" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="3.55" x2="-3.25" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="3.25" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="3.55" y1="3.55" x2="3.55" y2="3.25" width="0.1524" layer="21"/>
-<wire x1="3.25" y1="-3.55" x2="3.55" y2="-3.55" width="0.1524" layer="21"/>
-<wire x1="3.55" y1="-3.55" x2="3.55" y2="-3.25" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="-3.25" x2="-3.55" y2="-3.55" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="-3.55" x2="-3.25" y2="-3.55" width="0.1524" layer="21"/>
-<smd name="1" x="-4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="2" x="-4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="3" x="-4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="4" x="-4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="5" x="-4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="6" x="-4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="7" x="-4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="8" x="-4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="9" x="-2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="10" x="-2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="11" x="-1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="12" x="-0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="13" x="0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="14" x="1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="15" x="2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="16" x="2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="17" x="4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="18" x="4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="19" x="4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="20" x="4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="21" x="4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="22" x="4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="23" x="4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="24" x="4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="25" x="2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="26" x="2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="27" x="1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="28" x="0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="29" x="-0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="30" x="-1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="31" x="-2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="32" x="-2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="universal_sensor_node">
 <packages>
 <package name="0603-CAP">
@@ -678,6 +621,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="5" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
 </package>
+<package name="QFP80P900X900X120-32N">
+<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.1524" layer="51"/>
+<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.1524" layer="51"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.1524" layer="51"/>
+<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="51"/>
+<text x="-5.59011875" y="5.64171875" size="0.815940625" layer="25">&gt;NAME</text>
+<text x="-5.552209375" y="-6.544909375" size="0.8171625" layer="27">&gt;VALUE</text>
+<wire x1="-5.25" y1="-5.25" x2="5.25" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="-5.25" x2="5.25" y2="5.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="5.25" x2="-5.25" y2="5.25" width="0.05" layer="39"/>
+<wire x1="-5.25" y1="5.25" x2="-5.25" y2="-5.25" width="0.05" layer="39"/>
+<circle x="-5.389" y="2.8" radius="0.254" width="0" layer="21"/>
+<wire x1="-3.55" y1="3.25" x2="-3.55" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="3.55" x2="-3.25" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="3.25" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="-3.55" x2="3.55" y2="-3.55" width="0.1524" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="3.55" y2="-3.25" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="-3.25" x2="-3.55" y2="-3.55" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.25" y2="-3.55" width="0.1524" layer="21"/>
+<smd name="1" x="-4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="2" x="-4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="3" x="-4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="4" x="-4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="5" x="-4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="6" x="-4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="7" x="-4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="8" x="-4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="9" x="-2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="10" x="-2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="11" x="-1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="12" x="-0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="13" x="0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="14" x="1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="15" x="2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="16" x="2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="17" x="4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="18" x="4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="19" x="4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="20" x="4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="21" x="4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="22" x="4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="23" x="4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="24" x="4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="25" x="2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="26" x="2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="27" x="1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="28" x="0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="29" x="-0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="30" x="-1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="31" x="-2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="32" x="-2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -868,174 +864,113 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="19.05" y="-3.429" smashed="yes"/>
-<element name="U2" library="ATMEGA328PB-AU" package="QFP80P900X900X120-32N" value="ATMEGA328PB-AU" x="10.414" y="14.986" smashed="yes" rot="R315">
-<attribute name="AVAILABILITY" value="Unavailable" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DESCRIPTION" value=" AVR microcontroller; EEPROM: 1024B; SRAM: 2kB; Flash: 32kB; TQFP32 " x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
+<element name="U2" library="universal_sensor_node" package="QFP80P900X900X120-32N" value="ATMEGA328PB-AU" x="10.414" y="14.986" smashed="yes" rot="R315">
 <attribute name="MF" value="Microchip" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MP" value="ATMEGA328PB-AU" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="ATMEGA328PB-AU" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="9.72010625" y="8.853515625" size="0.762" layer="25" font="vector" ratio="10"/>
 <attribute name="PACKAGE" value="TQFP-32 Microchip" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="PRICE" value="None" x="10.414" y="14.986" size="1.778" layer="27" rot="R315" display="off"/>
-</element>
-<element name="C3" library="universal_sensor_node" package="0603-CAP" value="100nF" x="10.033" y="9.271" smashed="yes" rot="MR0">
-<attribute name="MP" value="CL10B104KB8NNNC" x="10.033" y="9.271" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="10.668" y="9.906" size="0.762" layer="26" font="vector" ratio="10" rot="MR0"/>
-<attribute name="PROD_ID" value="CAP-07883" x="10.033" y="9.271" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="8.255" y="8.636" size="0.762" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
 <element name="Y1" library="universal_sensor_node" package="TSX-3225" value="TSX-3225EPSON_TSX-3225_16.0000MF09Z-AC3_0_0" x="7.112" y="16.002" smashed="yes" rot="MR270">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET" value="https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CRYS 16MHz ±10ppm Crystal 9pF 60 Ohms 4-SMD, No Lead" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SER3628CT-ND" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Epson" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="732-TX325-16F09Z-AC3" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="TSX-3225 16.0000MF09Z-AC3" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="4.987" y="17.952" size="0.762" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="PACKAGE" value="XTAL_SMD_3MM2_2MM5" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PREFIX" value="Y" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="ROHS" value="yes" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+75°C" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-20°C" x="7.112" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C4" library="universal_sensor_node" package="0603-CAP" value="9pF" x="7.112" y="19.304" smashed="yes" rot="MR0">
 <attribute name="MPN" value="CBR06C909B5GAC" x="7.112" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="5.588" y="19.812" size="0.762" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="7.112" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="8.89" y="18.669" size="0.762" layer="28" font="vector" ratio="10" rot="MR90"/>
 </element>
 <element name="C5" library="universal_sensor_node" package="0603-CAP" value="9pF" x="7.112" y="12.827" smashed="yes" rot="MR180">
 <attribute name="MPN" value="CBR06C909B5GAC" x="7.112" y="12.827" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="5.715" y="13.335" size="0.762" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="7.112" y="12.827" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="8.89" y="12.065" size="0.762" layer="28" font="vector" ratio="10" rot="MR90"/>
 </element>
 <element name="R1" library="universal_sensor_node" package="0603-RES" value="10k" x="11.811" y="15.494" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RC0603FR-0710KL" x="11.811" y="15.494" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="11.938" y="13.843" size="0.762" layer="26" font="vector" ratio="10" rot="MR180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-09383" x="11.811" y="15.494" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="12.065" y="17.907" size="0.762" layer="28" font="vector" ratio="10" rot="MR0" align="top-center"/>
 </element>
 <element name="C6" library="universal_sensor_node" package="0603-CAP" value="10uF" x="14.224" y="-2.667" smashed="yes" rot="MR0">
 <attribute name="MPN" value="GRM188R61A106KE69J" x="14.224" y="-2.667" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="12.7" y="-2.159" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="14.224" y="-2.667" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="13.335" y="-3.429" size="0.635" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
 <element name="C8" library="universal_sensor_node" package="0603-CAP" value="0.1uF" x="14.224" y="-0.635" smashed="yes" rot="MR0">
 <attribute name="MPN" value="CL10B104KB8NNNL" x="14.224" y="-0.635" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="12.7" y="-0.127" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="14.224" y="-0.635" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="13.081" y="0.635" size="0.635" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
 <element name="D2" library="universal_sensor_node" package="0603" value="Blue" x="12.573" y="7.493" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Blue 1.6 x 0.8 mm _0603_ 130 º Intensity Min 11.2 mcd Typical 15 mcd SMT LED " x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Lite-On Inc." x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C193TBKT-5A" x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.97151875" y="8.12951875" size="0.635" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="PACKAGE" value="0603 Lite-On" x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="12.573" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="universal_sensor_node" package="0603-RES" value="1K" x="11.176" y="3.556" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RC0603FR-071KL" x="11.176" y="3.556" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="11.049" y="5.207" size="0.762" layer="26" font="vector" ratio="10" rot="MR0" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-09383" x="11.176" y="3.556" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="11.176" y="1.905" size="0.762" layer="28" font="vector" ratio="10" rot="MR0" align="top-center"/>
 </element>
 <element name="R5" library="universal_sensor_node" package="0603-RES" value="6K8" x="8.001" y="0.762" smashed="yes" rot="R180">
 <attribute name="MPN" value="RC0603FR-076K8L" x="8.001" y="0.762" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.35" y="0.762" size="0.762" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-09383" x="8.001" y="0.762" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.414" y="0.762" size="0.762" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C9" library="universal_sensor_node" package="0603-CAP" value="0.1uF" x="7.62" y="3.81" smashed="yes" rot="MR180">
 <attribute name="MPN" value="CL10B104KB8NNNL" x="7.62" y="3.81" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="6.096" y="4.445" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="7.62" y="3.81" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="8.763" y="4.826" size="0.635" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
 <element name="C7" library="universal_sensor_node" package="0603-CAP" value="10uF" x="7.62" y="1.778" smashed="yes" rot="MR180">
 <attribute name="MPN" value="GRM188R61A106KE69J" x="7.62" y="1.778" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="6.096" y="2.286" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="PROD_ID" value="CAP-07883" x="7.62" y="1.778" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="8.636" y="0.127" size="0.635" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
 <element name="D1" library="universal_sensor_node" package="0603" value="Yellow" x="8.255" y="7.493" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Yellow 1.6 x 0.8 x 1.1 mm 130° Water Clear 180 mcd 2 V LED Chip SMT " x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Lite-On Inc." x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KSKT" x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.85648125" y="6.98348125" size="0.635" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="PACKAGE" value="0603 Lite-On" x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="8.255" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="universal_sensor_node" package="JST_S2B-ZR-SM4A-TF_LF_SN_0" value="JST_S2B-ZR-SM4A-TF_LF_SNJST_S2B-ZR-SM4A-TF_LF_SN_0_0" x="14.097" y="-2.159" smashed="yes" rot="R180">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Right Angle" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CURRENT_RATING" value="1A" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Board to Board Connectors" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HEADER ZH SIDE 2POS 1.5MM" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="455-1693-1-ND" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="3.7mm" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="JST" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="S2B-ZR-SM4A-TF(LF)(SN)" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="S2B-ZR-SM4A-TF(LF)(SN)" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.097" y="-5.459" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="1" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="HDR02" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="J" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS" value="yes" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-25°C" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_RATING" value="50V" x="14.097" y="-2.159" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J4" library="universal_sensor_node" package="AMPHENOL_10118192-0001LF" value="10118192-0001LF" x="5.461" y="-1.016" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector " x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Amphenol ICC" x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="10118192-0001LF" x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.063890625" y="0.127040625" size="0.762" layer="25" font="vector" ratio="10"/>
 <attribute name="PACKAGE" value="None" x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="5.461" y="-1.016" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J2" library="universal_sensor_node" package="SAMTEC_SSQ-110-03-T-S" value="SSQ-110-03-T-S" x="19.431" y="25.146" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" SSQ Series .100 Tiger Buy™ Socket Strip, Square Tail " x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Samtec" x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="SSQ-110-03-T-S" x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.2532" y="-0.3556" size="0.762" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="None" x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="19.431" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J5" library="universal_sensor_node" package="SAMTEC_SSQ-110-03-T-S" value="SSQ-110-03-T-S" x="1.524" y="25.146" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" SSQ Series .100 Tiger Buy™ Socket Strip, Square Tail " x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Samtec" x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="SSQ-110-03-T-S" x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0.4572" y="-0.3556" size="0.762" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="None" x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="1.524" y="25.146" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="universal_sensor_node" package="SOT95P280X145-5N" value="MCP73831T-2ACI/OT" x="8.128" y="3.302" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" MCP73831 Series Single-Cell Li-Ion/Li-Polymer Battery Charge Controller SOT-23-5 " x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MCP73831T-2ACI/OTCT-ND" x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Microchip" x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MCP73831T-2ACI/OT" x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.5667" y="0.737590625" size="0.762" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="SOT-23 Microchip" x="8.128" y="3.302" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C1" library="universal_sensor_node" package="0603-CAP" value="100nF" x="10.795" y="9.017" smashed="yes" rot="MR0">
+<attribute name="MPN" value="CL10B104KB8NNNC" x="10.795" y="9.017" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="11.684" y="9.779" size="0.4064" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="11.811" y="7.874" size="0.4064" layer="28" font="vector" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -1176,7 +1111,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="3V7">
 <contactref element="U2" pad="18"/>
 <contactref element="U2" pad="4"/>
-<contactref element="C3" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J5" pad="1"/>
@@ -1210,8 +1144,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.04656875" y1="9.525" x2="13.081" y2="9.525" width="0.254" layer="1"/>
 <via x="13.081" y="9.525" extent="1-16" drill="0.381"/>
 <wire x1="13.081" y1="9.525" x2="14.986" y2="9.525" width="0.254" layer="16"/>
-<wire x1="10.883" y1="9.271" x2="12.827" y2="9.271" width="0.254" layer="16"/>
-<wire x1="12.827" y1="9.271" x2="13.081" y2="9.525" width="0.254" layer="16"/>
+<contactref element="C1" pad="1"/>
+<wire x1="12.573" y1="9.017" x2="11.645" y2="9.017" width="0.254" layer="16"/>
+<wire x1="13.081" y1="9.525" x2="12.573" y2="9.017" width="0.254" layer="16"/>
 </signal>
 <signal name="NC1">
 <contactref element="U2" pad="20"/>
@@ -1240,7 +1175,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="GND">
 <contactref element="U2" pad="5"/>
 <contactref element="U2" pad="21"/>
-<contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="Y1" pad="2"/>
 <contactref element="C6" pad="2"/>
@@ -1271,6 +1205,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C7" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="R5" pad="1"/>
+<contactref element="C1" pad="2"/>
 </signal>
 <signal name="NC13">
 <contactref element="U2" pad="3"/>

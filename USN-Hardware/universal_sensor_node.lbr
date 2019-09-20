@@ -667,12 +667,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" AVR microcontroller; EEPROM: 1024B; SRAM: 2kB; Flash: 32kB; TQFP32 "/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="ATMEGA328PB-AU"/>
 <attribute name="PACKAGE" value="TQFP-32 Microchip"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -692,7 +689,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CL10B104KB8NNNC" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="100nF" constant="no"/>
 </technology>
 </technologies>
@@ -713,7 +709,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="06035C220JAT2A" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="22pF" constant="no"/>
 </technology>
 </technologies>
@@ -735,17 +730,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CRYS 16MHz ±10ppm Crystal 9pF 60 Ohms 4-SMD, No Lead"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SER3628CT-ND"/>
-<attribute name="LEAD_FREE" value="yes"/>
 <attribute name="MF" value="Epson"/>
-<attribute name="MOUSER_PART_NUMBER" value="732-TX325-16F09Z-AC3"/>
 <attribute name="MPN" value="TSX-3225 16.0000MF09Z-AC3"/>
 <attribute name="PACKAGE" value="XTAL_SMD_3MM2_2MM5"/>
-<attribute name="PREFIX" value="Y"/>
-<attribute name="ROHS" value="yes"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+75°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-20°C"/>
 </technology>
@@ -767,7 +754,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CBR06C909B5GAC" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="9pF" constant="no"/>
 </technology>
 </technologies>
@@ -788,7 +774,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
@@ -811,9 +796,6 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" MCP73831 Series Single-Cell Li-Ion/Li-Polymer Battery Charge Controller SOT-23-5 "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MCP73831T-2ACI/OTCT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="MCP73831T-2ACI/OT"/>
 <attribute name="PACKAGE" value="SOT-23 Microchip"/>
@@ -836,7 +818,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="GRM188R61A106KE69J" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
@@ -857,7 +838,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CL10B104KB8NNNL" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
@@ -877,12 +857,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Yellow 1.6 x 0.8 x 1.1 mm 130° Water Clear 180 mcd 2 V LED Chip SMT "/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C191KSKT"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
-<attribute name="PRICE" value="None"/>
 <attribute name="VALUE" value="Yellow" constant="no"/>
 </technology>
 </technologies>
@@ -902,12 +879,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Blue 1.6 x 0.8 mm _0603_ 130 º Intensity Min 11.2 mcd Typical 15 mcd SMT LED "/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C193TBKT-5A"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
-<attribute name="PRICE" value="None"/>
 <attribute name="VALUE" value="Blue" constant="no"/>
 </technology>
 </technologies>
@@ -928,7 +902,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-071KL" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="1K"/>
 </technology>
 </technologies>
@@ -949,7 +922,6 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-076K8L" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="6K8"/>
 </technology>
 </technologies>
@@ -957,7 +929,7 @@
 </devices>
 </deviceset>
 <deviceset name="JST_S2B-ZR-SM4A-TF_LF_SN" prefix="J">
-<description>2 Positions Header, Shrouded Connector 0.059" (1.50mm) Surface Mount, Right Angle Tin</description>
+<description>2 Positions Header Shrouded Connector 0.059" (1.50mm) Surface Mount Right Angle Tin</description>
 <gates>
 <gate name="G$0" symbol="JST_S2B-ZR-SM4A-TF_LF_SN_0_0" x="0" y="0"/>
 </gates>
@@ -971,33 +943,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONN_GENDER" value="Male"/>
-<attribute name="CONN_ORIENTATION" value="Right Angle"/>
-<attribute name="CONTACT_MATERIAL" value="Tin"/>
-<attribute name="CURRENT_RATING" value="1A"/>
-<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors"/>
-<attribute name="DEVICE_CLASS_L2" value="Board to Board Connectors"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HEADER ZH SIDE 2POS 1.5MM"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="455-1693-1-ND"/>
-<attribute name="HEIGHT" value="3.7mm"/>
-<attribute name="LEAD_FREE" value="yes"/>
 <attribute name="MF" value="JST"/>
-<attribute name="MFG_PACKAGE_IDENT" value="S2B-ZR-SM4A-TF(LF)(SN)"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
 <attribute name="MPN" value="S2B-ZR-SM4A-TF(LF)(SN)"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2"/>
-<attribute name="NUMBER_OF_ROWS" value="1"/>
 <attribute name="PACKAGE" value="HDR02"/>
-<attribute name="PREFIX" value="J"/>
-<attribute name="ROHS" value="yes"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-25°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
-<attribute name="VOLTAGE_RATING" value="50V"/>
 </technology>
 </technologies>
 </device>
@@ -1020,12 +970,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector "/>
 <attribute name="MF" value="Amphenol ICC"/>
 <attribute name="MPN" value="10118192-0001LF"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -1052,12 +999,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" SSQ Series .100 Tiger Buy™ Socket Strip, Square Tail "/>
 <attribute name="MF" value="Samtec"/>
 <attribute name="MPN" value="SSQ-110-03-T-S"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>

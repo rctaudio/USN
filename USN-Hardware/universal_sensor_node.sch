@@ -4220,159 +4220,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="ATMEGA328PB-AU">
-<packages>
-<package name="QFP80P900X900X120-32N">
-<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.1524" layer="51"/>
-<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.1524" layer="51"/>
-<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.1524" layer="51"/>
-<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="51"/>
-<text x="-5.59011875" y="5.64171875" size="0.815940625" layer="25">&gt;NAME</text>
-<text x="-5.552209375" y="-6.544909375" size="0.8171625" layer="27">&gt;VALUE</text>
-<wire x1="-5.25" y1="-5.25" x2="5.25" y2="-5.25" width="0.05" layer="39"/>
-<wire x1="5.25" y1="-5.25" x2="5.25" y2="5.25" width="0.05" layer="39"/>
-<wire x1="5.25" y1="5.25" x2="-5.25" y2="5.25" width="0.05" layer="39"/>
-<wire x1="-5.25" y1="5.25" x2="-5.25" y2="-5.25" width="0.05" layer="39"/>
-<circle x="-5.389" y="2.8" radius="0.254" width="0" layer="21"/>
-<wire x1="-3.55" y1="3.25" x2="-3.55" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="3.55" x2="-3.25" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="3.25" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="21"/>
-<wire x1="3.55" y1="3.55" x2="3.55" y2="3.25" width="0.1524" layer="21"/>
-<wire x1="3.25" y1="-3.55" x2="3.55" y2="-3.55" width="0.1524" layer="21"/>
-<wire x1="3.55" y1="-3.55" x2="3.55" y2="-3.25" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="-3.25" x2="-3.55" y2="-3.55" width="0.1524" layer="21"/>
-<wire x1="-3.55" y1="-3.55" x2="-3.25" y2="-3.55" width="0.1524" layer="21"/>
-<smd name="1" x="-4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="2" x="-4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="3" x="-4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="4" x="-4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="5" x="-4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="6" x="-4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="7" x="-4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="8" x="-4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="9" x="-2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="10" x="-2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="11" x="-1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="12" x="-0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="13" x="0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="14" x="1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="15" x="2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="16" x="2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="17" x="4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="18" x="4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="19" x="4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="20" x="4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="21" x="4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
-<smd name="22" x="4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="23" x="4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
-<smd name="24" x="4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
-<smd name="25" x="2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="26" x="2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="27" x="1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="28" x="0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="29" x="-0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="30" x="-1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="31" x="-2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-<smd name="32" x="-2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ATMEGA328PB-AU">
-<wire x1="38.1" y1="27.94" x2="38.1" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-27.94" x2="-38.1" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="-27.94" x2="-38.1" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="27.94" x2="38.1" y2="27.94" width="0.254" layer="94"/>
-<text x="-38.215" y="29.3628" size="2.55326875" layer="95">&gt;NAME</text>
-<text x="-38.2328" y="-31.9473" size="2.5558" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="43.18" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="43.18" y="-25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB0(ICP1/CLKO/PTCXY)" x="-43.18" y="17.78" length="middle"/>
-<pin name="PB1(OC1A/PTCXY)" x="-43.18" y="15.24" length="middle"/>
-<pin name="PB2(!SS0!/OC1B/PTCXY)" x="-43.18" y="12.7" length="middle"/>
-<pin name="PB3(MOSI0/TXD1/OC2A/PTCXY)" x="-43.18" y="10.16" length="middle"/>
-<pin name="PB4(MISO0/RXD1/PTCXY)" x="-43.18" y="7.62" length="middle"/>
-<pin name="PB5(PTCXY/XCK0/SCK0)" x="-43.18" y="5.08" length="middle"/>
-<pin name="PB6(XTAL1/TOSC1)" x="-43.18" y="2.54" length="middle"/>
-<pin name="PB7(XTAL2/TOSC2)" x="-43.18" y="0" length="middle"/>
-<pin name="PC0(ADC0/PTCY/MISO1)" x="-43.18" y="-5.08" length="middle"/>
-<pin name="PC1(ADC1/PTCY/SCK1)" x="-43.18" y="-7.62" length="middle"/>
-<pin name="PC2(ADC2/PTCY)" x="-43.18" y="-10.16" length="middle"/>
-<pin name="PC3(ADC3/PTCY)" x="-43.18" y="-12.7" length="middle"/>
-<pin name="PC4(ADC4/PTCY/SDA0)" x="-43.18" y="-15.24" length="middle"/>
-<pin name="PC5(ADC5/PTCY/SCL0)" x="-43.18" y="-17.78" length="middle"/>
-<pin name="PC6(!RESET!)" x="-43.18" y="-20.32" length="middle"/>
-<pin name="PD0(PTCXY/OC3A/RXD0)" x="43.18" y="17.78" length="middle" rot="R180"/>
-<pin name="PD1(PTCXY/OC4A/TXD0)" x="43.18" y="15.24" length="middle" rot="R180"/>
-<pin name="PD2(PTCXY/INT0/OC3B/OC4B)" x="43.18" y="12.7" length="middle" rot="R180"/>
-<pin name="PD3(OC2B/INT1/PTCXY)" x="43.18" y="10.16" length="middle" rot="R180"/>
-<pin name="PD4(XCK0/T0/PTCXY)" x="43.18" y="7.62" length="middle" rot="R180"/>
-<pin name="PD5(OC0B/T1/PTCXY)" x="43.18" y="5.08" length="middle" rot="R180"/>
-<pin name="PD6(OC0A/PTCXY/AIN0)" x="43.18" y="2.54" length="middle" rot="R180"/>
-<pin name="PD7(PTCXY/AIN1)" x="43.18" y="0" length="middle" rot="R180"/>
-<pin name="AREF" x="-43.18" y="22.86" length="middle" direction="in"/>
-<pin name="AVCC" x="43.18" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="PE2(ADC6/PTCY/ICP3/!SS1!)" x="43.18" y="-10.16" length="middle" rot="R180"/>
-<pin name="PE3(ADC7/PTCY/T3/MOSI1)" x="43.18" y="-12.7" length="middle" rot="R180"/>
-<pin name="PE1(SCL1/T4/PTCXY)" x="43.18" y="-7.62" length="middle" rot="R180"/>
-<pin name="PE0(SDA1/ICP4/ACO/PTCXY)" x="43.18" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATMEGA328PB-AU" prefix="U">
-<description>ATmega Series 20 MHz 32 KB Flash 2 KB SRAM 8-Bit Microcontroller - TQFP-32</description>
-<gates>
-<gate name="G$1" symbol="ATMEGA328PB-AU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFP80P900X900X120-32N">
-<connects>
-<connect gate="G$1" pin="AREF" pad="20"/>
-<connect gate="G$1" pin="AVCC" pad="18"/>
-<connect gate="G$1" pin="GND" pad="5 21"/>
-<connect gate="G$1" pin="PB0(ICP1/CLKO/PTCXY)" pad="12"/>
-<connect gate="G$1" pin="PB1(OC1A/PTCXY)" pad="13"/>
-<connect gate="G$1" pin="PB2(!SS0!/OC1B/PTCXY)" pad="14"/>
-<connect gate="G$1" pin="PB3(MOSI0/TXD1/OC2A/PTCXY)" pad="15"/>
-<connect gate="G$1" pin="PB4(MISO0/RXD1/PTCXY)" pad="16"/>
-<connect gate="G$1" pin="PB5(PTCXY/XCK0/SCK0)" pad="17"/>
-<connect gate="G$1" pin="PB6(XTAL1/TOSC1)" pad="7"/>
-<connect gate="G$1" pin="PB7(XTAL2/TOSC2)" pad="8"/>
-<connect gate="G$1" pin="PC0(ADC0/PTCY/MISO1)" pad="23"/>
-<connect gate="G$1" pin="PC1(ADC1/PTCY/SCK1)" pad="24"/>
-<connect gate="G$1" pin="PC2(ADC2/PTCY)" pad="25"/>
-<connect gate="G$1" pin="PC3(ADC3/PTCY)" pad="26"/>
-<connect gate="G$1" pin="PC4(ADC4/PTCY/SDA0)" pad="27"/>
-<connect gate="G$1" pin="PC5(ADC5/PTCY/SCL0)" pad="28"/>
-<connect gate="G$1" pin="PC6(!RESET!)" pad="29"/>
-<connect gate="G$1" pin="PD0(PTCXY/OC3A/RXD0)" pad="30"/>
-<connect gate="G$1" pin="PD1(PTCXY/OC4A/TXD0)" pad="31"/>
-<connect gate="G$1" pin="PD2(PTCXY/INT0/OC3B/OC4B)" pad="32"/>
-<connect gate="G$1" pin="PD3(OC2B/INT1/PTCXY)" pad="1"/>
-<connect gate="G$1" pin="PD4(XCK0/T0/PTCXY)" pad="2"/>
-<connect gate="G$1" pin="PD5(OC0B/T1/PTCXY)" pad="9"/>
-<connect gate="G$1" pin="PD6(OC0A/PTCXY/AIN0)" pad="10"/>
-<connect gate="G$1" pin="PD7(PTCXY/AIN1)" pad="11"/>
-<connect gate="G$1" pin="PE0(SDA1/ICP4/ACO/PTCXY)" pad="3"/>
-<connect gate="G$1" pin="PE1(SCL1/T4/PTCXY)" pad="6"/>
-<connect gate="G$1" pin="PE2(ADC6/PTCY/ICP3/!SS1!)" pad="19"/>
-<connect gate="G$1" pin="PE3(ADC7/PTCY/T3/MOSI1)" pad="22"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" AVR microcontroller; EEPROM: 1024B; SRAM: 2kB; Flash: 32kB; TQFP32 "/>
-<attribute name="MF" value="Microchip"/>
-<attribute name="MP" value="ATMEGA328PB-AU"/>
-<attribute name="PACKAGE" value="TQFP-32 Microchip"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="universal_sensor_node">
 <packages>
 <package name="0603-CAP">
@@ -4600,6 +4447,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="5" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
 </package>
+<package name="QFP80P900X900X120-32N">
+<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.1524" layer="51"/>
+<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.1524" layer="51"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.1524" layer="51"/>
+<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="51"/>
+<text x="-5.59011875" y="5.64171875" size="0.815940625" layer="25">&gt;NAME</text>
+<text x="-5.552209375" y="-6.544909375" size="0.8171625" layer="27">&gt;VALUE</text>
+<wire x1="-5.25" y1="-5.25" x2="5.25" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="-5.25" x2="5.25" y2="5.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="5.25" x2="-5.25" y2="5.25" width="0.05" layer="39"/>
+<wire x1="-5.25" y1="5.25" x2="-5.25" y2="-5.25" width="0.05" layer="39"/>
+<circle x="-5.389" y="2.8" radius="0.254" width="0" layer="21"/>
+<wire x1="-3.55" y1="3.25" x2="-3.55" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="3.55" x2="-3.25" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="3.55" x2="3.55" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="3.25" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="-3.55" x2="3.55" y2="-3.55" width="0.1524" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="3.55" y2="-3.25" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="-3.25" x2="-3.55" y2="-3.55" width="0.1524" layer="21"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.25" y2="-3.55" width="0.1524" layer="21"/>
+<smd name="1" x="-4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="2" x="-4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="3" x="-4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="4" x="-4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="5" x="-4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="6" x="-4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="7" x="-4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="8" x="-4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="9" x="-2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="10" x="-2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="11" x="-1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="12" x="-0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="13" x="0.4" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="14" x="1.2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="15" x="2" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="16" x="2.8" y="-4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="17" x="4.18" y="-2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="18" x="4.18" y="-2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="19" x="4.18" y="-1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="20" x="4.18" y="-0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="21" x="4.18" y="0.4" dx="1.6" dy="0.55" layer="1"/>
+<smd name="22" x="4.18" y="1.2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="23" x="4.18" y="2" dx="1.6" dy="0.55" layer="1"/>
+<smd name="24" x="4.18" y="2.8" dx="1.6" dy="0.55" layer="1"/>
+<smd name="25" x="2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="26" x="2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="27" x="1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="28" x="0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="29" x="-0.4" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="30" x="-1.2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="31" x="-2" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+<smd name="32" x="-2.8" y="4.18" dx="0.55" dy="1.6" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="0603_CAP">
@@ -4748,29 +4648,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="STAT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="VBAT" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
 </symbol>
+<symbol name="ATMEGA328PB-AU">
+<wire x1="38.1" y1="27.94" x2="38.1" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-27.94" x2="-38.1" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-27.94" x2="-38.1" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="27.94" x2="38.1" y2="27.94" width="0.254" layer="94"/>
+<text x="-38.215" y="29.3628" size="2.55326875" layer="95">&gt;NAME</text>
+<text x="-38.2328" y="-31.9473" size="2.5558" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="43.18" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="43.18" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB0(ICP1/CLKO/PTCXY)" x="-43.18" y="17.78" length="middle"/>
+<pin name="PB1(OC1A/PTCXY)" x="-43.18" y="15.24" length="middle"/>
+<pin name="PB2(!SS0!/OC1B/PTCXY)" x="-43.18" y="12.7" length="middle"/>
+<pin name="PB3(MOSI0/TXD1/OC2A/PTCXY)" x="-43.18" y="10.16" length="middle"/>
+<pin name="PB4(MISO0/RXD1/PTCXY)" x="-43.18" y="7.62" length="middle"/>
+<pin name="PB5(PTCXY/XCK0/SCK0)" x="-43.18" y="5.08" length="middle"/>
+<pin name="PB6(XTAL1/TOSC1)" x="-43.18" y="2.54" length="middle"/>
+<pin name="PB7(XTAL2/TOSC2)" x="-43.18" y="0" length="middle"/>
+<pin name="PC0(ADC0/PTCY/MISO1)" x="-43.18" y="-5.08" length="middle"/>
+<pin name="PC1(ADC1/PTCY/SCK1)" x="-43.18" y="-7.62" length="middle"/>
+<pin name="PC2(ADC2/PTCY)" x="-43.18" y="-10.16" length="middle"/>
+<pin name="PC3(ADC3/PTCY)" x="-43.18" y="-12.7" length="middle"/>
+<pin name="PC4(ADC4/PTCY/SDA0)" x="-43.18" y="-15.24" length="middle"/>
+<pin name="PC5(ADC5/PTCY/SCL0)" x="-43.18" y="-17.78" length="middle"/>
+<pin name="PC6(!RESET!)" x="-43.18" y="-20.32" length="middle"/>
+<pin name="PD0(PTCXY/OC3A/RXD0)" x="43.18" y="17.78" length="middle" rot="R180"/>
+<pin name="PD1(PTCXY/OC4A/TXD0)" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="PD2(PTCXY/INT0/OC3B/OC4B)" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="PD3(OC2B/INT1/PTCXY)" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="PD4(XCK0/T0/PTCXY)" x="43.18" y="7.62" length="middle" rot="R180"/>
+<pin name="PD5(OC0B/T1/PTCXY)" x="43.18" y="5.08" length="middle" rot="R180"/>
+<pin name="PD6(OC0A/PTCXY/AIN0)" x="43.18" y="2.54" length="middle" rot="R180"/>
+<pin name="PD7(PTCXY/AIN1)" x="43.18" y="0" length="middle" rot="R180"/>
+<pin name="AREF" x="-43.18" y="22.86" length="middle" direction="in"/>
+<pin name="AVCC" x="43.18" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="PE2(ADC6/PTCY/ICP3/!SS1!)" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="PE3(ADC7/PTCY/T3/MOSI1)" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="PE1(SCL1/T4/PTCXY)" x="43.18" y="-7.62" length="middle" rot="R180"/>
+<pin name="PE0(SDA1/ICP4/ACO/PTCXY)" x="43.18" y="-5.08" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="100NF-50V-5%(0603)" prefix="C" uservalue="yes">
-<description>CAP-07883</description>
-<gates>
-<gate name="G$1" symbol="0603_CAP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="0603-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MP" value="CL10B104KB8NNNC" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
-<attribute name="VALUE" value="100nF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TSX-3225" prefix="Y">
 <description>EPSON_TSX-3225_16.0000MF09Z-AC3</description>
 <gates>
@@ -4786,17 +4704,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CRYS 16MHz ±10ppm Crystal 9pF 60 Ohms 4-SMD, No Lead"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SER3628CT-ND"/>
-<attribute name="LEAD_FREE" value="yes"/>
 <attribute name="MF" value="Epson"/>
-<attribute name="MOUSER_PART_NUMBER" value="732-TX325-16F09Z-AC3"/>
 <attribute name="MPN" value="TSX-3225 16.0000MF09Z-AC3"/>
 <attribute name="PACKAGE" value="XTAL_SMD_3MM2_2MM5"/>
-<attribute name="PREFIX" value="Y"/>
-<attribute name="ROHS" value="yes"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+75°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-20°C"/>
 </technology>
@@ -4818,7 +4728,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CBR06C909B5GAC" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="9pF" constant="no"/>
 </technology>
 </technologies>
@@ -4839,7 +4748,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
@@ -4860,7 +4768,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="GRM188R61A106KE69J" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
@@ -4881,7 +4788,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CL10B104KB8NNNL" constant="no"/>
-<attribute name="PROD_ID" value="CAP-07883" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
@@ -4901,12 +4807,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Blue 1.6 x 0.8 mm _0603_ 130 º Intensity Min 11.2 mcd Typical 15 mcd SMT LED "/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C193TBKT-5A"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
-<attribute name="PRICE" value="None"/>
 <attribute name="VALUE" value="Blue" constant="no"/>
 </technology>
 </technologies>
@@ -4927,7 +4830,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-071KL" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="1K"/>
 </technology>
 </technologies>
@@ -4948,7 +4850,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MPN" value="RC0603FR-076K8L" constant="no"/>
-<attribute name="PROD_ID" value="RES-09383"/>
 <attribute name="VALUE" value="6K8"/>
 </technology>
 </technologies>
@@ -4968,12 +4869,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Yellow 1.6 x 0.8 x 1.1 mm 130° Water Clear 180 mcd 2 V LED Chip SMT "/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C191KSKT"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
-<attribute name="PRICE" value="None"/>
 <attribute name="VALUE" value="Yellow" constant="no"/>
 </technology>
 </technologies>
@@ -4981,7 +4879,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </devices>
 </deviceset>
 <deviceset name="JST_S2B-ZR-SM4A-TF_LF_SN" prefix="J">
-<description>2 Positions Header, Shrouded Connector 0.059" (1.50mm) Surface Mount, Right Angle Tin</description>
+<description>2 Positions Header Shrouded Connector 0.059" (1.50mm) Surface Mount Right Angle Tin</description>
 <gates>
 <gate name="G$0" symbol="JST_S2B-ZR-SM4A-TF_LF_SN_0_0" x="0" y="0"/>
 </gates>
@@ -4995,33 +4893,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONN_GENDER" value="Male"/>
-<attribute name="CONN_ORIENTATION" value="Right Angle"/>
-<attribute name="CONTACT_MATERIAL" value="Tin"/>
-<attribute name="CURRENT_RATING" value="1A"/>
-<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors"/>
-<attribute name="DEVICE_CLASS_L2" value="Board to Board Connectors"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HEADER ZH SIDE 2POS 1.5MM"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="455-1693-1-ND"/>
-<attribute name="HEIGHT" value="3.7mm"/>
-<attribute name="LEAD_FREE" value="yes"/>
 <attribute name="MF" value="JST"/>
-<attribute name="MFG_PACKAGE_IDENT" value="S2B-ZR-SM4A-TF(LF)(SN)"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
 <attribute name="MPN" value="S2B-ZR-SM4A-TF(LF)(SN)"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2"/>
-<attribute name="NUMBER_OF_ROWS" value="1"/>
 <attribute name="PACKAGE" value="HDR02"/>
-<attribute name="PREFIX" value="J"/>
-<attribute name="ROHS" value="yes"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-25°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
-<attribute name="VOLTAGE_RATING" value="50V"/>
 </technology>
 </technologies>
 </device>
@@ -5044,12 +4920,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector "/>
 <attribute name="MF" value="Amphenol ICC"/>
 <attribute name="MPN" value="10118192-0001LF"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -5076,12 +4949,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" SSQ Series .100 Tiger Buy™ Socket Strip, Square Tail "/>
 <attribute name="MF" value="Samtec"/>
 <attribute name="MPN" value="SSQ-110-03-T-S"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -5103,12 +4973,79 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" MCP73831 Series Single-Cell Li-Ion/Li-Polymer Battery Charge Controller SOT-23-5 "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MCP73831T-2ACI/OTCT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="MCP73831T-2ACI/OT"/>
 <attribute name="PACKAGE" value="SOT-23 Microchip"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="100NF-50V-10%(0603)" prefix="C" uservalue="yes">
+<description>CAP-07883</description>
+<gates>
+<gate name="G$1" symbol="0603_CAP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CL10B104KB8NNNC" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA328PB-AU" prefix="U">
+<description>ATmega Series 20 MHz 32 KB Flash 2 KB SRAM 8-Bit Microcontroller - TQFP-32</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA328PB-AU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFP80P900X900X120-32N">
+<connects>
+<connect gate="G$1" pin="AREF" pad="20"/>
+<connect gate="G$1" pin="AVCC" pad="18"/>
+<connect gate="G$1" pin="GND" pad="5 21"/>
+<connect gate="G$1" pin="PB0(ICP1/CLKO/PTCXY)" pad="12"/>
+<connect gate="G$1" pin="PB1(OC1A/PTCXY)" pad="13"/>
+<connect gate="G$1" pin="PB2(!SS0!/OC1B/PTCXY)" pad="14"/>
+<connect gate="G$1" pin="PB3(MOSI0/TXD1/OC2A/PTCXY)" pad="15"/>
+<connect gate="G$1" pin="PB4(MISO0/RXD1/PTCXY)" pad="16"/>
+<connect gate="G$1" pin="PB5(PTCXY/XCK0/SCK0)" pad="17"/>
+<connect gate="G$1" pin="PB6(XTAL1/TOSC1)" pad="7"/>
+<connect gate="G$1" pin="PB7(XTAL2/TOSC2)" pad="8"/>
+<connect gate="G$1" pin="PC0(ADC0/PTCY/MISO1)" pad="23"/>
+<connect gate="G$1" pin="PC1(ADC1/PTCY/SCK1)" pad="24"/>
+<connect gate="G$1" pin="PC2(ADC2/PTCY)" pad="25"/>
+<connect gate="G$1" pin="PC3(ADC3/PTCY)" pad="26"/>
+<connect gate="G$1" pin="PC4(ADC4/PTCY/SDA0)" pad="27"/>
+<connect gate="G$1" pin="PC5(ADC5/PTCY/SCL0)" pad="28"/>
+<connect gate="G$1" pin="PC6(!RESET!)" pad="29"/>
+<connect gate="G$1" pin="PD0(PTCXY/OC3A/RXD0)" pad="30"/>
+<connect gate="G$1" pin="PD1(PTCXY/OC4A/TXD0)" pad="31"/>
+<connect gate="G$1" pin="PD2(PTCXY/INT0/OC3B/OC4B)" pad="32"/>
+<connect gate="G$1" pin="PD3(OC2B/INT1/PTCXY)" pad="1"/>
+<connect gate="G$1" pin="PD4(XCK0/T0/PTCXY)" pad="2"/>
+<connect gate="G$1" pin="PD5(OC0B/T1/PTCXY)" pad="9"/>
+<connect gate="G$1" pin="PD6(OC0A/PTCXY/AIN0)" pad="10"/>
+<connect gate="G$1" pin="PD7(PTCXY/AIN1)" pad="11"/>
+<connect gate="G$1" pin="PE0(SDA1/ICP4/ACO/PTCXY)" pad="3"/>
+<connect gate="G$1" pin="PE1(SCL1/T4/PTCXY)" pad="6"/>
+<connect gate="G$1" pin="PE2(ADC6/PTCY/ICP3/!SS1!)" pad="19"/>
+<connect gate="G$1" pin="PE3(ADC7/PTCY/T3/MOSI1)" pad="22"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Microchip"/>
+<attribute name="MPN" value="ATMEGA328PB-AU"/>
+<attribute name="PACKAGE" value="TQFP-32 Microchip"/>
 </technology>
 </technologies>
 </device>
@@ -5129,8 +5066,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="U2" library="ATMEGA328PB-AU" deviceset="ATMEGA328PB-AU" device=""/>
-<part name="C3" library="universal_sensor_node" deviceset="100NF-50V-5%(0603)" device="" value="100nF"/>
+<part name="U2" library="universal_sensor_node" deviceset="ATMEGA328PB-AU" device=""/>
 <part name="Y1" library="universal_sensor_node" deviceset="TSX-3225" device="EPSON_TSX-3225_16.0000MF09Z-AC3_0_0"/>
 <part name="C4" library="universal_sensor_node" deviceset="9PF-50V(0603)" device="" value="9pF"/>
 <part name="C5" library="universal_sensor_node" deviceset="9PF-50V(0603)" device="" value="9pF"/>
@@ -5151,6 +5087,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J5" library="universal_sensor_node" deviceset="SSQ-110-03-T-S" device=""/>
 <part name="U1" library="universal_sensor_node" deviceset="MCP73831T-2ACI/OT" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="C1" library="universal_sensor_node" deviceset="100NF-50V-10%(0603)" device="" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5172,10 +5109,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U2" gate="G$1" x="43.18" y="50.8" smashed="yes">
 <attribute name="NAME" x="4.965" y="80.1628" size="2.55326875" layer="95"/>
 <attribute name="VALUE" x="4.9472" y="18.8527" size="2.5558" layer="96"/>
-</instance>
-<instance part="C3" gate="G$1" x="104.14" y="71.12" smashed="yes">
-<attribute name="NAME" x="105.664" y="74.041" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.664" y="68.961" size="1.778" layer="96"/>
 </instance>
 <instance part="Y1" gate="G$0" x="-35.56" y="55.88" smashed="yes">
 <attribute name="NAME" x="-32.766" y="56.388" size="2.54" layer="95" align="top-left"/>
@@ -5251,6 +5184,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND1" gate="1" x="-25.4" y="40.64" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="104.14" y="71.12" smashed="yes">
+<attribute name="NAME" x="105.664" y="74.041" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.664" y="68.961" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5462,7 +5399,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="AVCC"/>
 <wire x1="86.36" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <label x="96.52" y="76.2" size="1.778" layer="95"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
@@ -5531,7 +5468,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
