@@ -4704,11 +4704,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="SER3628CT-ND" constant="no"/>
 <attribute name="MF" value="Epson"/>
 <attribute name="MPN" value="TSX-3225 16.0000MF09Z-AC3"/>
 <attribute name="PACKAGE" value="XTAL_SMD_3MM2_2MM5"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+75°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-20°C"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4727,8 +4727,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="CBR06C909B5GAC" constant="no"/>
 <attribute name="MPN" value="CBR06C909B5GAC" constant="no"/>
 <attribute name="VALUE" value="9pF" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4747,8 +4749,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="311-10.0KHRCT-ND" constant="no"/>
 <attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
 <attribute name="VALUE" value="10k"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4767,8 +4771,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="490-14372-1-ND" constant="no"/>
 <attribute name="MPN" value="GRM188R61A106KE69J" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4787,8 +4793,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="1276-CL10B104KB8NNNLCT-ND" constant="no"/>
 <attribute name="MPN" value="CL10B104KB8NNNL" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4807,10 +4815,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="160-1827-1-ND" constant="no"/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C193TBKT-5A"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
 <attribute name="VALUE" value="Blue" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4829,8 +4839,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="311-1.00KHRCT-ND" constant="no"/>
 <attribute name="MPN" value="RC0603FR-071KL" constant="no"/>
 <attribute name="VALUE" value="1K"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4849,8 +4861,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="311-6.80KHRCT-ND" constant="no"/>
 <attribute name="MPN" value="RC0603FR-076K8L" constant="no"/>
 <attribute name="VALUE" value="6K8"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4869,10 +4883,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="160-1448-1-ND" constant="no"/>
 <attribute name="MF" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C191KSKT"/>
 <attribute name="PACKAGE" value="0603 Lite-On"/>
 <attribute name="VALUE" value="Yellow" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4893,11 +4909,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="455-1693-1-ND" constant="no"/>
 <attribute name="MF" value="JST"/>
 <attribute name="MPN" value="S2B-ZR-SM4A-TF(LF)(SN)"/>
 <attribute name="PACKAGE" value="HDR02"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-25°C"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4920,9 +4936,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="609-4613-1-ND" constant="no"/>
 <attribute name="MF" value="Amphenol ICC"/>
 <attribute name="MPN" value="10118192-0001LF"/>
 <attribute name="PACKAGE" value="None"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4949,9 +4967,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="SAM1206-10-ND" constant="no"/>
 <attribute name="MF" value="Samtec"/>
 <attribute name="MPN" value="SSQ-110-03-T-S"/>
 <attribute name="PACKAGE" value="None"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4973,9 +4993,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="MCP73831T-2ACI/OTCT-ND" constant="no"/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="MCP73831T-2ACI/OT"/>
 <attribute name="PACKAGE" value="SOT-23 Microchip"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4994,8 +5016,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="1276-1000-1-ND" constant="no"/>
 <attribute name="MPN" value="CL10B104KB8NNNC" constant="no"/>
 <attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5043,9 +5067,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGI-KEY_PN" value="ATMEGA328PB-AURCT-ND" constant="no"/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="ATMEGA328PB-AU"/>
 <attribute name="PACKAGE" value="TQFP-32 Microchip"/>
+<attribute name="VERIFIED" value="no" constant="no"/>
 </technology>
 </technologies>
 </device>
